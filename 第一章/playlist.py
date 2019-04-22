@@ -9,9 +9,9 @@ from matplotlib import pyplot
 
 def findConnonTracks(fileNames):
     """
-       Find common tracks in given playlist files, and save them
-       to common.txt.
-       """
+    Find common tracks in given playlist files, and save them
+    to common.txt.
+    """
     # alist of sets of track names
     trackNameSets = []
     for fileName in fileNames:
